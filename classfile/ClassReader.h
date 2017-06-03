@@ -15,10 +15,7 @@ public:
 
 
 
-
-
-
 };
 
 
-#endif //RATEL_CLASSREADER_H
+#endif

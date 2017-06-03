@@ -6,7 +6,7 @@
 #define RATEL_CMDLINEPARSE_H
 
 
-int ratel_commandline(int argc,char **argv);
+int parseCommandLine(int argc,char **argv);
 
 int usage();
 
