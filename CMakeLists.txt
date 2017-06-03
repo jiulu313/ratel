@@ -3,5 +3,5 @@ project(ratel)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp classfile/ClassReader.cpp classfile/ClassReader.h common/DataTypeCom.h)
+set(SOURCE_FILES main.cpp classfile/ClassReader.cpp classfile/ClassReader.h common/DataTypeCom.h third/cmdline/cmdline.h.h CmdLineParse.cpp CmdLineParse.h)
 add_executable(ratel ${SOURCE_FILES})
